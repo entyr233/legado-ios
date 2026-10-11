@@ -1,5 +1,7 @@
 name: iOS CI
 
+# Forked to entyr233/legado-ios to verify the upstream CI on a Mac-free workflow.
+# This comment is the only local change; it exists so GitHub registers the workflow in the fork.
 on:
   push:
     branches: [ main, develop ]
